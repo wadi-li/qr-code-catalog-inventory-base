@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000" />
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/scan_frame" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:paddingHorizontal="24dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:text="Наведите камеру на штрих-код или QR-код" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/torchBtn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            app:strokeColor="#FFFFFF"
+            app:icon="@drawable/ic_flash"
+            app:iconTint="#FFFFFF"
+            android:text="@string/torch" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/manualBtn"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="#FFFFFF"
+            app:strokeColor="#FFFFFF"
+            app:icon="@drawable/ic_keyboard"
+            app:iconTint="#FFFFFF"
+            android:text="@string/manual_input" />
+    </LinearLayout>
+</FrameLayout>

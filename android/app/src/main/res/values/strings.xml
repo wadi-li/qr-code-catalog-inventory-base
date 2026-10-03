@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Каталог предметов</string>
+    <string name="search_hint">Поиск: код, название, комментарий, категории</string>
+    <string name="add">Добавить</string>
+    <string name="scan">Сканировать</string>
+    <string name="code">Серийный номер / код</string>
+    <string name="type">Тип</string>
+    <string name="group">Группа</string>
+    <string name="subgroup">Подгруппа</string>
+    <string name="name">Название</string>
+    <string name="comment">Комментарий</string>
+    <string name="created">Дата и время</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="settings">Настройки</string>
+    <string name="cancel">Отмена</string>
+    <string name="manual_input">Ввести вручную</string>
+    <string name="torch">Подсветка</string>
+</resources>

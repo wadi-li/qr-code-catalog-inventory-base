@@ -1,0 +1,15 @@
+# Сборка
+android/build/
+android/app/build/
+android/.gradle/
+android/.kotlin/
+android/local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Секреты подписи — НИКОГДА не коммитить
+android/keystore/
+android/keystore.properties
+*.jks
+*.keystore

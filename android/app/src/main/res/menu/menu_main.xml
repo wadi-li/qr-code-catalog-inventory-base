@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mTheme" android:title="Тема" app:showAsAction="never" />
+    <item android:id="@+id/mArchiveNow" android:title="Создать архив сейчас" app:showAsAction="never" />
+    <item android:id="@+id/mSendNow" android:title="Отправить архив на e-mail" app:showAsAction="never" />
+    <item android:id="@+id/mShare" android:title="Поделиться архивом (почта, мессенджер)" app:showAsAction="never" />
+    <item android:id="@+id/mExportCsv" android:title="Сохранить CSV" app:showAsAction="never" />
+    <item android:id="@+id/mImport" android:title="Восстановить из JSON" app:showAsAction="never" />
+    <item android:id="@+id/mSettings" android:title="@string/settings" app:showAsAction="never" />
+</menu>
