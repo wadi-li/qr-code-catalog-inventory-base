@@ -1,4 +1,22 @@
-# Каталог предметов 2.0 — Android-приложение и веб-версия
+<div align="center">
+
+<img src="https://bwipjs-api.metafloor.com/?bcid=code128&text=89037625775&scale=3&height=15&includetext&backgroundcolor=FFFFFF" alt="Штрих-код Code 128: 89037625775" width="420">
+
+# Каталог предметов 2.0
+
+**Каталог, QR- и штрих-коды, инвентаризация оборудования и вещей**
+
+<a href="https://github.com/wadi-li/qr-code-catalog-inventory-base/raw/refs/heads/main/release/KatalogPredmetov-2.0.apk">
+  <img src="https://img.shields.io/badge/%D0%A1%D0%9A%D0%90%D0%A7%D0%90%D0%A2%D0%AC%20APK-Android%207.0%2B-15803d?style=for-the-badge&logo=android&logoColor=white" alt="СКАЧАТЬ APK для Android" height="64">
+</a>
+
+**Версия 2.0 · Android 7.0+ · 27,7 МБ**
+
+[Веб-версия](web/index.html) · [Исходный код Android](android/) · [Все релизы](https://github.com/wadi-li/qr-code-catalog-inventory-base/releases)
+
+</div>
+
+---
 
 Учёт вещей и оборудования по коду с четырёхуровневым каталогом:
 **Тип → Группа → Подгруппа → Название → Комментарий**. Код (серийный номер, штрих-код,
